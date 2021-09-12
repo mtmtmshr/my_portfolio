@@ -5,7 +5,7 @@ services:
       context: ./my_blog_front
       dockerfile: Dockerfile
     volumes:
-      - ./my_blog_front:/usr/src/app
-    command: sh -c "cd blog && npm i && npm run dev"
+      - ./my_portfolio_front:/usr/src/app
+    command: sh -c "cd portfolio && npm i && npm run dev"
     ports:
       - "3000:3000"
