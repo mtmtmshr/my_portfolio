@@ -52,7 +52,7 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Nextjs' }) => {
                     </div>
                 </nav>
             </header>
-            <main className="flex flex-1 justify-center items-center flex-col w-screen">
+            <main className="flex flex-1 items-center md, lg, xl:items-start flex-col w-screen md, lg, xl:w-7/12 py-8">
                 {children}
             </main>
             <div className="w-full h-14 flex justify-center items-center bg-gray-400">
