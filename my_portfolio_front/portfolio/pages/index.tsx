@@ -2,9 +2,9 @@ import Layout from "../components/Layout"
 
 const Home: React.FC = () => {
   return (
-    <Layout title="Home">
-      <p>Hello Nextjs</p>
-    </Layout>
+    <div>
+      404 Not Found
+    </div>
   )
 }
 export default Home
