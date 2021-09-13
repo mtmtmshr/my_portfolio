@@ -14,9 +14,9 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Nextjs' }) => {
                 <title>{title}</title>
             </Head>
             <header className="w-full h-36 flex flex-col justify-center items-center bg-gray-400">
-                <h1 className="text-4xl w-7/12 h-24 py-8">Masahiro Matsumoto</h1>
+                <h1 className="text-2xl md, xl:text-4xl md, lg, xl:w-7/12 h-24 py-8">Masahiro Matsumoto</h1>
                 <nav className="bg-gray-800 w-screen opacity-80">
-                    <div className="flex items-center h-14 w-7/12 m-auto text-center">
+                    <div className="m-auto flex items-center h-14 justify-center md, lg, xl:w-7/12 md, lg, xl:justify-start m-auto text-center">
                         <Link href="/portfolio">
                             <a
                                 data-testid="about"
