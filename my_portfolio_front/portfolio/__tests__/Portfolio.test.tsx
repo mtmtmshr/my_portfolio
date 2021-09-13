@@ -9,4 +9,11 @@ describe("Should render Home Correcry", () => {
     expect(screen.getByText('Masahiro Matsumoto')).toBeInTheDocument()
     expect(screen.getByText('© Masahiro Matsumoto 2021')).toBeInTheDocument()
   })
+
+  it('Should render Home contents', () => {
+    render(<Portfolio />)
+    expect(screen.getByText('経歴')).toBeInTheDocument()
+    expect(screen.getByText('提出論文')).toBeInTheDocument()
+    expect(screen.getByText('受賞')).toBeInTheDocument()
+  })
 })
