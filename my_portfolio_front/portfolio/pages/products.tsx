@@ -1,6 +1,5 @@
 import Layout from "../components/Layout"
 import Image from 'next/image'
-import gurunabi1 from "../public/gurunabi1.jpg"
 
 const Products: React.FC = () => {
     return (
@@ -11,7 +10,7 @@ const Products: React.FC = () => {
                 <p>熟語を作成して消去することができるパズルゲーム．動かし方、消え方は完全にぷよぷよ。名前はテトリス。連鎖や3文字以上の熟語を作成することで高得点を獲得できる．ちなみに消去できる最長文字列は独立行政法人等個人情報保護法。</p>
                 <a href="https://github.com/mtmtmshr/kanjitetris" className="underline pt-4">github</a>
                 <div className="px-8 flex space-x-40">
-                    <Image className="box-boder border-2" src="/../public/kanjitetris.jpg" width='250' height="300" objectFit="contain"/>
+                    <Image className="box-boder border-2" src="/../public/kanjitetris.png" width='250' height="300" objectFit="contain"/>
                 </div>
                 <h4 className="pt-4">開発言語</h4>
                 <p>Java</p>
@@ -21,9 +20,9 @@ const Products: React.FC = () => {
                 <a href="https://github.com/mtmtmshr/gurumenabi" className="underline pb-8">github</a>
                 
                 <div className="px-8 space-x-40 flex flex-wrap">
-                    <Image className="box-boder border-2" src={gurunabi1} width='300' height="200" objectFit="contain"/>
-                    <Image className="box-boder border-2" src="/../public/gurunabi2.jpg" width='300' height="200" objectFit="contain"/>
-                    <Image className="box-boder border-2" src="/../public/gurunabi3.jpg" width='300' height="200" objectFit="contain"/>
+                    <Image className="box-boder border-2" src="/../public/gurunabi1.png" width={300} height={200} objectFit="contain"/>
+                    <Image className="box-boder border-2" src="/../public/gurunabi2.png" width='300' height="200" objectFit="contain"/>
+                    <Image className="box-boder border-2" src="/../public/gurunabi3.png" width='300' height="200" objectFit="contain"/>
                 </div>
                 <h4 className="pt-4">開発言語</h4>
                 <p>TypeScript, React, Python, Flask</p>
@@ -32,8 +31,8 @@ const Products: React.FC = () => {
                 <a href="https://word-cloud-visualizer.web.app/" className="underline pt-4">公開サイト</a>
                 <a href="https://github.com/mtmtmshr/my_wordcloud_visualization" className="underline">github</a>
                 <div className="px-8 flex">
-                    <Image className="box-boder border-2" src="/../public/wordcloud2.jpg" width='400' height="250" objectFit="contain"/>
-                    <Image className="box-boder border-2" src="/../public/wordcloud1.jpg" width='400' height="250" objectFit="contain"/>
+                    <Image className="box-boder border-2" src="/../public/wordcloud2.png" width='400' height="250" objectFit="contain"/>
+                    <Image className="box-boder border-2" src="/../public/wordcloud1.png" width='400' height="250" objectFit="contain"/>
                 </div>
                 <h4 className="pt-4">開発言語</h4>
                 <p>TypeScript, React, Python, Flask</p>
