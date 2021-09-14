@@ -1,6 +1,6 @@
 import Layout from "../components/Layout"
 import Image from 'next/image'
-
+import gurunabi1 from "../public/gurunabi1.jpg"
 
 const Products: React.FC = () => {
     return (
@@ -21,7 +21,7 @@ const Products: React.FC = () => {
                 <a href="https://github.com/mtmtmshr/gurumenabi" className="underline pb-8">github</a>
                 
                 <div className="px-8 space-x-40 flex flex-wrap">
-                    <Image className="box-boder border-2" src="/../public/gurunabi1.jpg" width='300' height="200" objectFit="contain"/>
+                    <Image className="box-boder border-2" src={gurunabi1} width='300' height="200" objectFit="contain"/>
                     <Image className="box-boder border-2" src="/../public/gurunabi2.jpg" width='300' height="200" objectFit="contain"/>
                     <Image className="box-boder border-2" src="/../public/gurunabi3.jpg" width='300' height="200" objectFit="contain"/>
                 </div>
