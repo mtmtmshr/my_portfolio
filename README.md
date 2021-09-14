@@ -1,2 +1,2 @@
 # my_portfolio
-https://www.mtmtmshr.tk/
+https://www.mtmtmshr.tk/portfolio
