@@ -23,5 +23,7 @@ describe("should render nav bar correctly", () => {
         expect(await screen.findByText('連絡先')).toBeInTheDocument()
         userEvent.click(screen.getByTestId('about'))
         expect(await screen.findByText('松本 真拓 / Masahiro Matsumoto')).toBeInTheDocument()
+        userEvent.click(screen.getByTestId('blog'))
+        expect(await screen.findByText(/Blog/)).toBeInTheDocument()
     })
 })

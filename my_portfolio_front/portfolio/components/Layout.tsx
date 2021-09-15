@@ -15,12 +15,12 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Nextjs' }) => {
             </Head>
             <header className="w-full h-34 flex flex-col justify-center items-center bg-gray-400">
                 <h1 className="text-2xl md, xl:text-4xl md, lg, xl:w-7/12 h-24 py-8">Masahiro Matsumoto</h1>
-                <nav className="bg-gray-800 w-screen opacity-80">
+                <nav className="bg-gray-800 w-screen bg-opacity-80">
                     <div className="m-auto flex items-center h-14 justify-center md, lg, xl:w-7/12 md, lg, xl:justify-start m-auto text-center">
                         <Link href="/portfolio">
                             <a
                                 data-testid="about"
-                                className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
+                                className="text-gray-300 hover:bg-gray-600 px-3 py-2 rounded"
                             >
                                 About
                             </a>
@@ -28,7 +28,7 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Nextjs' }) => {
                         <Link href="/products">
                             <a
                                 data-testid="products"
-                                className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
+                                className="text-gray-300 hover:bg-gray-600 px-3 py-2 rounded"
                             >
                                 Products
                             </a>
@@ -36,7 +36,7 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Nextjs' }) => {
                         <Link href="/certification">
                             <a
                                 data-testid="certification"
-                                className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
+                                className="text-gray-300 hover:bg-gray-600 px-3 py-2 rounded"
                             >
                                 Certification
                             </a>
@@ -44,9 +44,17 @@ const Layout: React.FC<TITLE> = ({ children, title = 'Nextjs' }) => {
                         <Link href="/contacts">
                             <a
                                 data-testid="contacts"
-                                className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded"
+                                className="text-gray-300 hover:bg-gray-600 px-3 py-2 rounded"
                             >
                                 Contacts
+                            </a>
+                        </Link>
+                        <Link href="/">
+                            <a
+                                data-testid="blog"
+                                className="text-gray-300 hover:bg-gray-600 px-3 py-2 rounded"
+                            >
+                                Blog
                             </a>
                         </Link>
                     </div>
