@@ -22,9 +22,10 @@ const BlogDetail: React.FC<POST> = ( {id, title, body, created_at} ) => {
                 <div className="w-3/12 w-full h-12 border-opacity-20 flex-1 py-8 px-10">
                     <div className="markdown break-all">
                         <ReactMarkdown
-                            children={body}
                             plugins={[gfm]}
-                        />
+                        >
+                        {body}
+                        </ReactMarkdown>
                     </div>
                 </div>
                 <Link href="/"><button type="button" className="text-right text-xl underline pr-4 pb-4">記事一覧へ</button></Link>

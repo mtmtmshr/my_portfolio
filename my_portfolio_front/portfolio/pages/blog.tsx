@@ -16,12 +16,11 @@ const Blog: React.FC = () => {
                 </div>
                 <div className="w-3/12 border-b border-green-900 w-full h-12 border-opacity-20 pl-10 pt-2 text-2xl">Sentence-Bertを使ってみた法則</div>
                 <div className="w-3/12 w-full h-12 border-opacity-20 flex-1 py-8 px-10" style={{ fontSize: 18  }}>
-                <div className="markdown">
-                    <ReactMarkdown
-                    children={"# Overview\n## Overview"}
+                <ReactMarkdown
                     plugins={[gfm]}
-                    />
-                </div>
+                >
+                    {"# Overview\n## Overview"}
+                </ReactMarkdown>
                 </div>
             </div>
             <div className="w-3/12 border-l border-r border-green-900 border-opacity-20 text-center">
