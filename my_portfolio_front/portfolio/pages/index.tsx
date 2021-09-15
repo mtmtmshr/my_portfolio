@@ -18,7 +18,7 @@ const BlogHome:React.FC<PostProps> = ({ posts }) => {
             {
               posts.map((post) => {
                 return (
-                  <Link href={`/blog/${post.id}`}>
+                  <Link href={`/blog/${post.id}`} key={post.id}>
                     <div className="box-border border cursor-pointer w-11/12 md, lg, xl:w-5/12 pt-6 pb-2 border-green-900 border-opacity-20 my-4 mx-2">
                       <h2 className="text-xl">{post.title}</h2>
                       <p className="text-right pb-0 mb-0 pr-2">{post.created_at}</p>
