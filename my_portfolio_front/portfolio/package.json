@@ -26,7 +26,8 @@
     "react-markdown": "^7.0.1",
     "remark-gfm": "^2.0.0",
     "swr": "^1.0.0",
-    "tailwindcss": "^2.2.9"
+    "tailwindcss": "^2.2.9",
+    "ts-jest": "^27.0.5"
   },
   "devDependencies": {
     "@testing-library/dom": "^8.2.0",
@@ -46,14 +47,5 @@
   "prettier": {
     "singleQuote": true,
     "semi": false
-  },
-  "jest": {
-    "testPathIgnorePatterns": [
-      "<rootDir>/.next/",
-      "<rootDir>/node_modules/"
-    ],
-    "moduleNameMapper": {
-      "\\.(css)$": "<rootDir>/node_modules/jest-css-modules"
-    }
   }
 }
