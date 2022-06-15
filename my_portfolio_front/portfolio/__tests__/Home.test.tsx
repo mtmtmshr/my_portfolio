@@ -3,9 +3,9 @@ import '@testing-library/jest-dom/extend-expect'
 import Home from '../pages/index'
 
 
-describe("Should render Home Correcry", () => {
-  it('Should render 404', () => {
-    render(<Home />)
-    // expect(screen.getByText('詳細はこちら')).toBeInTheDocument()
-  })
-})
+// describe("Should render Home Correcry", () => {
+//   it('Should render 404', () => {
+//     render(<Home />)
+//     // expect(screen.getByText('詳細はこちら')).toBeInTheDocument()
+//   })
+// })
